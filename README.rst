@@ -3,7 +3,7 @@ Tic-Tac-Toe Reinforcement Learning
 
 A collection of experiments with different approaches using Q-Learning with function approximator at solving a Tic-Tac-Toe environment.
 
-The framework used is USienaR.
+The framework used is `USienaRL <https://github.com/InsaneMonster/USienaRL>`_.
 
 *Authors*: Luca Pasqualini, Valentino delle Rose
 
