@@ -1,0 +1,2 @@
+model_checkpoint_path: "eg_experiment_high_reward"
+all_model_checkpoint_paths: "eg_experiment_high_reward"

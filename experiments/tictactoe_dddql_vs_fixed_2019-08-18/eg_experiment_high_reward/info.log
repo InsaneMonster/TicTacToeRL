@@ -1,0 +1,563 @@
+2019-08-18 11:00:51,842 - INFO - Setup of experiment eg_experiment_high_reward...
+2019-08-18 11:00:51,842 - INFO - Environment setup...
+2019-08-18 11:00:51,842 - INFO - Environment setup is successful!
+2019-08-18 11:00:51,842 - INFO - Agent setup...
+2019-08-18 11:00:51,842 - INFO - Setup of agent dddqn_egreedy_agent with scope eg_experiment_high_reward...
+2019-08-18 11:00:51,844 - INFO - A Tensorboard summary for the agent will be updated during training of its internal model
+2019-08-18 11:00:51,844 - INFO - Tensorboard summary path: ./experiments/tictactoe_dddql_vs_fixed_2019-08-18/eg_experiment_high_reward/summary
+2019-08-18 11:00:51,844 - INFO - Generating exploration policy...
+2019-08-18 11:00:51,844 - INFO - Generating model model with scope eg_experiment_high_reward/dddqn_egreedy_agent...
+2019-08-18 11:00:51,844 - INFO - Model generation successful
+2019-08-18 11:00:52,230 - INFO - Agent setup is successful!
+2019-08-18 11:00:52,300 - INFO - Agent internal model will be saved after each train volley
+2019-08-18 11:00:52,300 - INFO - Agent internal model metagraph save path: ./experiments/tictactoe_dddql_vs_fixed_2019-08-18/eg_experiment_high_reward/metagraph
+2019-08-18 11:00:52,300 - INFO - Tensorflow configuration is successful!
+2019-08-18 11:00:52,300 - INFO - Experiment setup is successful. Now can conduct the experiment
+2019-08-18 11:00:52,300 - INFO - Conducting experiment eg_experiment_high_reward...
+2019-08-18 11:00:52,478 - INFO - Model initialized to default state
+2019-08-18 11:00:52,512 - INFO - Warming-up for 100000 episodes...
+2019-08-18 11:01:29,611 - INFO - Training for 1000 episodes...
+2019-08-18 11:02:39,344 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:02:39,344 - INFO - Average total reward over 1000 training episodes after 1000 total training episodes: -3.81
+2019-08-18 11:02:39,344 - INFO - Average scaled reward over 1000 training episodes after 1000 total training episodes: -1.9308333333333334
+2019-08-18 11:02:39,345 - INFO - Total training steps up to now: 3245
+2019-08-18 11:02:39,345 - INFO - Saving the agent...
+2019-08-18 11:02:39,482 - INFO - Validating for 100 episodes...
+2019-08-18 11:02:39,976 - INFO - Training of 100 finished with following result:
+2019-08-18 11:02:39,976 - INFO - Average total reward over 100 validation episodes after 1000 total training episodes: -2.8
+2019-08-18 11:02:39,977 - INFO - Average scaled reward over 100 validation episodes after 1000 total training episodes: -1.4666666666666668
+2019-08-18 11:02:39,977 - INFO - Training for 1000 episodes...
+2019-08-18 11:03:51,913 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:03:51,914 - INFO - Average total reward over 1000 training episodes after 2000 total training episodes: -3.73
+2019-08-18 11:03:51,914 - INFO - Average scaled reward over 1000 training episodes after 2000 total training episodes: -1.8458333333333334
+2019-08-18 11:03:51,914 - INFO - Total training steps up to now: 6596
+2019-08-18 11:03:51,914 - INFO - Saving the agent...
+2019-08-18 11:03:52,004 - INFO - Validating for 100 episodes...
+2019-08-18 11:03:52,664 - INFO - Training of 100 finished with following result:
+2019-08-18 11:03:52,664 - INFO - Average total reward over 100 validation episodes after 2000 total training episodes: -1.5
+2019-08-18 11:03:52,664 - INFO - Average scaled reward over 100 validation episodes after 2000 total training episodes: -0.6166666666666668
+2019-08-18 11:03:52,664 - INFO - Training for 1000 episodes...
+2019-08-18 11:05:03,858 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:05:03,859 - INFO - Average total reward over 1000 training episodes after 3000 total training episodes: -4.39
+2019-08-18 11:05:03,859 - INFO - Average scaled reward over 1000 training episodes after 3000 total training episodes: -2.0383333333333336
+2019-08-18 11:05:03,859 - INFO - Total training steps up to now: 9890
+2019-08-18 11:05:03,859 - INFO - Saving the agent...
+2019-08-18 11:05:03,955 - INFO - Validating for 100 episodes...
+2019-08-18 11:05:04,558 - INFO - Training of 100 finished with following result:
+2019-08-18 11:05:04,559 - INFO - Average total reward over 100 validation episodes after 3000 total training episodes: -2.2
+2019-08-18 11:05:04,559 - INFO - Average scaled reward over 100 validation episodes after 3000 total training episodes: -0.9666666666666666
+2019-08-18 11:05:04,559 - INFO - Training for 1000 episodes...
+2019-08-18 11:06:14,436 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:06:14,437 - INFO - Average total reward over 1000 training episodes after 4000 total training episodes: -4.52
+2019-08-18 11:06:14,437 - INFO - Average scaled reward over 1000 training episodes after 4000 total training episodes: -2.096666666666667
+2019-08-18 11:06:14,437 - INFO - Total training steps up to now: 13144
+2019-08-18 11:06:14,437 - INFO - Saving the agent...
+2019-08-18 11:06:14,534 - INFO - Validating for 100 episodes...
+2019-08-18 11:06:15,128 - INFO - Training of 100 finished with following result:
+2019-08-18 11:06:15,128 - INFO - Average total reward over 100 validation episodes after 4000 total training episodes: -5.0
+2019-08-18 11:06:15,128 - INFO - Average scaled reward over 100 validation episodes after 4000 total training episodes: -1.8083333333333333
+2019-08-18 11:06:15,128 - INFO - Training for 1000 episodes...
+2019-08-18 11:07:25,051 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:07:25,052 - INFO - Average total reward over 1000 training episodes after 5000 total training episodes: -4.67
+2019-08-18 11:07:25,052 - INFO - Average scaled reward over 1000 training episodes after 5000 total training episodes: -2.0975000000000006
+2019-08-18 11:07:25,052 - INFO - Total training steps up to now: 16384
+2019-08-18 11:07:25,052 - INFO - Saving the agent...
+2019-08-18 11:07:25,149 - INFO - Validating for 100 episodes...
+2019-08-18 11:07:25,661 - INFO - Training of 100 finished with following result:
+2019-08-18 11:07:25,661 - INFO - Average total reward over 100 validation episodes after 5000 total training episodes: 6.1
+2019-08-18 11:07:25,661 - INFO - Average scaled reward over 100 validation episodes after 5000 total training episodes: 0.8500000000000001
+2019-08-18 11:07:25,661 - INFO - Training for 1000 episodes...
+2019-08-18 11:08:35,606 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:08:35,606 - INFO - Average total reward over 1000 training episodes after 6000 total training episodes: -4.67
+2019-08-18 11:08:35,607 - INFO - Average scaled reward over 1000 training episodes after 6000 total training episodes: -2.135
+2019-08-18 11:08:35,607 - INFO - Total training steps up to now: 19636
+2019-08-18 11:08:35,607 - INFO - Saving the agent...
+2019-08-18 11:08:35,704 - INFO - Validating for 100 episodes...
+2019-08-18 11:08:36,187 - INFO - Training of 100 finished with following result:
+2019-08-18 11:08:36,187 - INFO - Average total reward over 100 validation episodes after 6000 total training episodes: 7.8
+2019-08-18 11:08:36,187 - INFO - Average scaled reward over 100 validation episodes after 6000 total training episodes: 0.9833333333333332
+2019-08-18 11:08:36,187 - INFO - Training for 1000 episodes...
+2019-08-18 11:09:47,711 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:09:47,711 - INFO - Average total reward over 1000 training episodes after 7000 total training episodes: -4.03
+2019-08-18 11:09:47,711 - INFO - Average scaled reward over 1000 training episodes after 7000 total training episodes: -1.9216666666666666
+2019-08-18 11:09:47,711 - INFO - Total training steps up to now: 22946
+2019-08-18 11:09:47,712 - INFO - Saving the agent...
+2019-08-18 11:09:47,808 - INFO - Validating for 100 episodes...
+2019-08-18 11:09:48,304 - INFO - Training of 100 finished with following result:
+2019-08-18 11:09:48,304 - INFO - Average total reward over 100 validation episodes after 7000 total training episodes: 12.9
+2019-08-18 11:09:48,304 - INFO - Average scaled reward over 100 validation episodes after 7000 total training episodes: 2.4
+2019-08-18 11:09:48,304 - INFO - Training for 1000 episodes...
+2019-08-18 11:10:58,376 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:10:58,377 - INFO - Average total reward over 1000 training episodes after 8000 total training episodes: -3.43
+2019-08-18 11:10:58,377 - INFO - Average scaled reward over 1000 training episodes after 8000 total training episodes: -1.821666666666667
+2019-08-18 11:10:58,377 - INFO - Total training steps up to now: 26219
+2019-08-18 11:10:58,377 - INFO - Saving the agent...
+2019-08-18 11:10:58,473 - INFO - Validating for 100 episodes...
+2019-08-18 11:10:58,931 - INFO - Training of 100 finished with following result:
+2019-08-18 11:10:58,931 - INFO - Average total reward over 100 validation episodes after 8000 total training episodes: 8.5
+2019-08-18 11:10:58,932 - INFO - Average scaled reward over 100 validation episodes after 8000 total training episodes: 1.1500000000000001
+2019-08-18 11:10:58,932 - INFO - Training for 1000 episodes...
+2019-08-18 11:12:10,811 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:12:10,812 - INFO - Average total reward over 1000 training episodes after 9000 total training episodes: -2.66
+2019-08-18 11:12:10,812 - INFO - Average scaled reward over 1000 training episodes after 9000 total training episodes: -1.5833333333333333
+2019-08-18 11:12:10,812 - INFO - Total training steps up to now: 29540
+2019-08-18 11:12:10,812 - INFO - Saving the agent...
+2019-08-18 11:12:10,911 - INFO - Validating for 100 episodes...
+2019-08-18 11:12:11,413 - INFO - Training of 100 finished with following result:
+2019-08-18 11:12:11,413 - INFO - Average total reward over 100 validation episodes after 9000 total training episodes: 15.5
+2019-08-18 11:12:11,414 - INFO - Average scaled reward over 100 validation episodes after 9000 total training episodes: 3.1333333333333337
+2019-08-18 11:12:11,414 - INFO - Training for 1000 episodes...
+2019-08-18 11:13:21,235 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:13:21,235 - INFO - Average total reward over 1000 training episodes after 10000 total training episodes: -4.02
+2019-08-18 11:13:21,235 - INFO - Average scaled reward over 1000 training episodes after 10000 total training episodes: -1.976666666666667
+2019-08-18 11:13:21,236 - INFO - Total training steps up to now: 32775
+2019-08-18 11:13:21,236 - INFO - Saving the agent...
+2019-08-18 11:13:21,332 - INFO - Validating for 100 episodes...
+2019-08-18 11:13:21,828 - INFO - Training of 100 finished with following result:
+2019-08-18 11:13:21,828 - INFO - Average total reward over 100 validation episodes after 10000 total training episodes: 8.9
+2019-08-18 11:13:21,828 - INFO - Average scaled reward over 100 validation episodes after 10000 total training episodes: 1.3666666666666665
+2019-08-18 11:13:21,828 - INFO - Training for 1000 episodes...
+2019-08-18 11:14:32,949 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:14:32,949 - INFO - Average total reward over 1000 training episodes after 11000 total training episodes: -4.52
+2019-08-18 11:14:32,949 - INFO - Average scaled reward over 1000 training episodes after 11000 total training episodes: -2.021666666666667
+2019-08-18 11:14:32,950 - INFO - Total training steps up to now: 36083
+2019-08-18 11:14:32,950 - INFO - Saving the agent...
+2019-08-18 11:14:33,050 - INFO - Validating for 100 episodes...
+2019-08-18 11:14:33,559 - INFO - Training of 100 finished with following result:
+2019-08-18 11:14:33,560 - INFO - Average total reward over 100 validation episodes after 11000 total training episodes: 14.8
+2019-08-18 11:14:33,560 - INFO - Average scaled reward over 100 validation episodes after 11000 total training episodes: 2.966666666666667
+2019-08-18 11:14:33,560 - INFO - Training for 1000 episodes...
+2019-08-18 11:15:44,541 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:15:44,542 - INFO - Average total reward over 1000 training episodes after 12000 total training episodes: -2.87
+2019-08-18 11:15:44,542 - INFO - Average scaled reward over 1000 training episodes after 12000 total training episodes: -1.6433333333333335
+2019-08-18 11:15:44,542 - INFO - Total training steps up to now: 39375
+2019-08-18 11:15:44,542 - INFO - Saving the agent...
+2019-08-18 11:15:44,648 - INFO - Validating for 100 episodes...
+2019-08-18 11:15:45,128 - INFO - Training of 100 finished with following result:
+2019-08-18 11:15:45,129 - INFO - Average total reward over 100 validation episodes after 12000 total training episodes: 11.8
+2019-08-18 11:15:45,129 - INFO - Average scaled reward over 100 validation episodes after 12000 total training episodes: 2.083333333333333
+2019-08-18 11:15:45,129 - INFO - Training for 1000 episodes...
+2019-08-18 11:16:57,723 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:16:57,724 - INFO - Average total reward over 1000 training episodes after 13000 total training episodes: -3.31
+2019-08-18 11:16:57,724 - INFO - Average scaled reward over 1000 training episodes after 13000 total training episodes: -1.7066666666666668
+2019-08-18 11:16:57,724 - INFO - Total training steps up to now: 42727
+2019-08-18 11:16:57,724 - INFO - Saving the agent...
+2019-08-18 11:16:57,824 - INFO - Validating for 100 episodes...
+2019-08-18 11:16:58,322 - INFO - Training of 100 finished with following result:
+2019-08-18 11:16:58,322 - INFO - Average total reward over 100 validation episodes after 13000 total training episodes: 12.1
+2019-08-18 11:16:58,322 - INFO - Average scaled reward over 100 validation episodes after 13000 total training episodes: 2.1333333333333333
+2019-08-18 11:16:58,323 - INFO - Training for 1000 episodes...
+2019-08-18 11:18:09,308 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:18:09,308 - INFO - Average total reward over 1000 training episodes after 14000 total training episodes: -2.75
+2019-08-18 11:18:09,308 - INFO - Average scaled reward over 1000 training episodes after 14000 total training episodes: -1.6291666666666669
+2019-08-18 11:18:09,309 - INFO - Total training steps up to now: 46019
+2019-08-18 11:18:09,309 - INFO - Saving the agent...
+2019-08-18 11:18:09,403 - INFO - Validating for 100 episodes...
+2019-08-18 11:18:09,903 - INFO - Training of 100 finished with following result:
+2019-08-18 11:18:09,903 - INFO - Average total reward over 100 validation episodes after 14000 total training episodes: 9.3
+2019-08-18 11:18:09,903 - INFO - Average scaled reward over 100 validation episodes after 14000 total training episodes: 1.5166666666666668
+2019-08-18 11:18:09,903 - INFO - Training for 1000 episodes...
+2019-08-18 11:19:17,664 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:19:17,664 - INFO - Average total reward over 1000 training episodes after 15000 total training episodes: -2.74
+2019-08-18 11:19:17,665 - INFO - Average scaled reward over 1000 training episodes after 15000 total training episodes: -1.6208333333333336
+2019-08-18 11:19:17,665 - INFO - Total training steps up to now: 49275
+2019-08-18 11:19:17,665 - INFO - Saving the agent...
+2019-08-18 11:19:17,761 - INFO - Validating for 100 episodes...
+2019-08-18 11:19:18,158 - INFO - Training of 100 finished with following result:
+2019-08-18 11:19:18,159 - INFO - Average total reward over 100 validation episodes after 15000 total training episodes: 16.1
+2019-08-18 11:19:18,159 - INFO - Average scaled reward over 100 validation episodes after 15000 total training episodes: 3.2
+2019-08-18 11:19:18,159 - INFO - Training for 1000 episodes...
+2019-08-18 11:20:24,509 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:20:24,509 - INFO - Average total reward over 1000 training episodes after 16000 total training episodes: -2.2
+2019-08-18 11:20:24,509 - INFO - Average scaled reward over 1000 training episodes after 16000 total training episodes: -1.4833333333333334
+2019-08-18 11:20:24,510 - INFO - Total training steps up to now: 52561
+2019-08-18 11:20:24,510 - INFO - Saving the agent...
+2019-08-18 11:20:24,603 - INFO - Validating for 100 episodes...
+2019-08-18 11:20:25,074 - INFO - Training of 100 finished with following result:
+2019-08-18 11:20:25,074 - INFO - Average total reward over 100 validation episodes after 16000 total training episodes: 10.7
+2019-08-18 11:20:25,074 - INFO - Average scaled reward over 100 validation episodes after 16000 total training episodes: 1.633333333333333
+2019-08-18 11:20:25,074 - INFO - Training for 1000 episodes...
+2019-08-18 11:21:35,982 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:21:35,982 - INFO - Average total reward over 1000 training episodes after 17000 total training episodes: -2.53
+2019-08-18 11:21:35,983 - INFO - Average scaled reward over 1000 training episodes after 17000 total training episodes: -1.56
+2019-08-18 11:21:35,983 - INFO - Total training steps up to now: 55872
+2019-08-18 11:21:35,983 - INFO - Saving the agent...
+2019-08-18 11:21:36,081 - INFO - Validating for 100 episodes...
+2019-08-18 11:21:36,562 - INFO - Training of 100 finished with following result:
+2019-08-18 11:21:36,562 - INFO - Average total reward over 100 validation episodes after 17000 total training episodes: 5.6
+2019-08-18 11:21:36,562 - INFO - Average scaled reward over 100 validation episodes after 17000 total training episodes: 0.5833333333333333
+2019-08-18 11:21:36,562 - INFO - Training for 1000 episodes...
+2019-08-18 11:22:47,977 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:22:47,978 - INFO - Average total reward over 1000 training episodes after 18000 total training episodes: -1.88
+2019-08-18 11:22:47,978 - INFO - Average scaled reward over 1000 training episodes after 18000 total training episodes: -1.3616666666666666
+2019-08-18 11:22:47,978 - INFO - Total training steps up to now: 59179
+2019-08-18 11:22:47,978 - INFO - Saving the agent...
+2019-08-18 11:22:48,080 - INFO - Validating for 100 episodes...
+2019-08-18 11:22:48,558 - INFO - Training of 100 finished with following result:
+2019-08-18 11:22:48,558 - INFO - Average total reward over 100 validation episodes after 18000 total training episodes: 3.4
+2019-08-18 11:22:48,559 - INFO - Average scaled reward over 100 validation episodes after 18000 total training episodes: -0.08333333333333343
+2019-08-18 11:22:48,559 - INFO - Training for 1000 episodes...
+2019-08-18 11:24:00,433 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:24:00,434 - INFO - Average total reward over 1000 training episodes after 19000 total training episodes: -2.42
+2019-08-18 11:24:00,434 - INFO - Average scaled reward over 1000 training episodes after 19000 total training episodes: -1.4591666666666667
+2019-08-18 11:24:00,434 - INFO - Total training steps up to now: 62518
+2019-08-18 11:24:00,434 - INFO - Saving the agent...
+2019-08-18 11:24:00,541 - INFO - Validating for 100 episodes...
+2019-08-18 11:24:00,993 - INFO - Training of 100 finished with following result:
+2019-08-18 11:24:00,993 - INFO - Average total reward over 100 validation episodes after 19000 total training episodes: 8.0
+2019-08-18 11:24:00,993 - INFO - Average scaled reward over 100 validation episodes after 19000 total training episodes: 0.9833333333333334
+2019-08-18 11:24:00,993 - INFO - Training for 1000 episodes...
+2019-08-18 11:25:12,374 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:25:12,374 - INFO - Average total reward over 1000 training episodes after 20000 total training episodes: 0.15
+2019-08-18 11:25:12,376 - INFO - Average scaled reward over 1000 training episodes after 20000 total training episodes: -0.8366666666666668
+2019-08-18 11:25:12,376 - INFO - Total training steps up to now: 65847
+2019-08-18 11:25:12,376 - INFO - Saving the agent...
+2019-08-18 11:25:12,476 - INFO - Validating for 100 episodes...
+2019-08-18 11:25:12,957 - INFO - Training of 100 finished with following result:
+2019-08-18 11:25:12,957 - INFO - Average total reward over 100 validation episodes after 20000 total training episodes: -0.1
+2019-08-18 11:25:12,958 - INFO - Average scaled reward over 100 validation episodes after 20000 total training episodes: -0.9666666666666666
+2019-08-18 11:25:12,958 - INFO - Training for 1000 episodes...
+2019-08-18 11:26:24,502 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:26:24,503 - INFO - Average total reward over 1000 training episodes after 21000 total training episodes: -0.58
+2019-08-18 11:26:24,503 - INFO - Average scaled reward over 1000 training episodes after 21000 total training episodes: -1.0525000000000002
+2019-08-18 11:26:24,503 - INFO - Total training steps up to now: 69160
+2019-08-18 11:26:24,503 - INFO - Saving the agent...
+2019-08-18 11:26:24,604 - INFO - Validating for 100 episodes...
+2019-08-18 11:26:25,075 - INFO - Training of 100 finished with following result:
+2019-08-18 11:26:25,076 - INFO - Average total reward over 100 validation episodes after 21000 total training episodes: 8.4
+2019-08-18 11:26:25,076 - INFO - Average scaled reward over 100 validation episodes after 21000 total training episodes: 1.166666666666667
+2019-08-18 11:26:25,076 - INFO - Training for 1000 episodes...
+2019-08-18 11:27:35,251 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:27:35,252 - INFO - Average total reward over 1000 training episodes after 22000 total training episodes: -0.64
+2019-08-18 11:27:35,252 - INFO - Average scaled reward over 1000 training episodes after 22000 total training episodes: -1.0783333333333336
+2019-08-18 11:27:35,252 - INFO - Total training steps up to now: 72428
+2019-08-18 11:27:35,252 - INFO - Saving the agent...
+2019-08-18 11:27:35,351 - INFO - Validating for 100 episodes...
+2019-08-18 11:27:35,860 - INFO - Training of 100 finished with following result:
+2019-08-18 11:27:35,860 - INFO - Average total reward over 100 validation episodes after 22000 total training episodes: 8.5
+2019-08-18 11:27:35,861 - INFO - Average scaled reward over 100 validation episodes after 22000 total training episodes: 1.0999999999999996
+2019-08-18 11:27:35,861 - INFO - Training for 1000 episodes...
+2019-08-18 11:28:47,110 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:28:47,110 - INFO - Average total reward over 1000 training episodes after 23000 total training episodes: -2.21
+2019-08-18 11:28:47,110 - INFO - Average scaled reward over 1000 training episodes after 23000 total training episodes: -1.436666666666667
+2019-08-18 11:28:47,110 - INFO - Total training steps up to now: 75733
+2019-08-18 11:28:47,110 - INFO - Saving the agent...
+2019-08-18 11:28:47,204 - INFO - Validating for 100 episodes...
+2019-08-18 11:28:47,676 - INFO - Training of 100 finished with following result:
+2019-08-18 11:28:47,676 - INFO - Average total reward over 100 validation episodes after 23000 total training episodes: 9.2
+2019-08-18 11:28:47,676 - INFO - Average scaled reward over 100 validation episodes after 23000 total training episodes: 1.2833333333333328
+2019-08-18 11:28:47,676 - INFO - Training for 1000 episodes...
+2019-08-18 11:30:00,035 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:30:00,035 - INFO - Average total reward over 1000 training episodes after 24000 total training episodes: -1.24
+2019-08-18 11:30:00,036 - INFO - Average scaled reward over 1000 training episodes after 24000 total training episodes: -1.1600000000000001
+2019-08-18 11:30:00,036 - INFO - Total training steps up to now: 79094
+2019-08-18 11:30:00,036 - INFO - Saving the agent...
+2019-08-18 11:30:00,137 - INFO - Validating for 100 episodes...
+2019-08-18 11:30:00,600 - INFO - Training of 100 finished with following result:
+2019-08-18 11:30:00,600 - INFO - Average total reward over 100 validation episodes after 24000 total training episodes: 14.8
+2019-08-18 11:30:00,600 - INFO - Average scaled reward over 100 validation episodes after 24000 total training episodes: 2.7833333333333337
+2019-08-18 11:30:00,601 - INFO - Training for 1000 episodes...
+2019-08-18 11:31:12,283 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:31:12,283 - INFO - Average total reward over 1000 training episodes after 25000 total training episodes: -0.69
+2019-08-18 11:31:12,283 - INFO - Average scaled reward over 1000 training episodes after 25000 total training episodes: -1.0425
+2019-08-18 11:31:12,284 - INFO - Total training steps up to now: 82412
+2019-08-18 11:31:12,284 - INFO - Saving the agent...
+2019-08-18 11:31:12,383 - INFO - Validating for 100 episodes...
+2019-08-18 11:31:12,866 - INFO - Training of 100 finished with following result:
+2019-08-18 11:31:12,867 - INFO - Average total reward over 100 validation episodes after 25000 total training episodes: 9.1
+2019-08-18 11:31:12,867 - INFO - Average scaled reward over 100 validation episodes after 25000 total training episodes: 1.2166666666666666
+2019-08-18 11:31:12,867 - INFO - Training for 1000 episodes...
+2019-08-18 11:32:24,108 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:32:24,109 - INFO - Average total reward over 1000 training episodes after 26000 total training episodes: -1.02
+2019-08-18 11:32:24,109 - INFO - Average scaled reward over 1000 training episodes after 26000 total training episodes: -1.1016666666666668
+2019-08-18 11:32:24,109 - INFO - Total training steps up to now: 85726
+2019-08-18 11:32:24,109 - INFO - Saving the agent...
+2019-08-18 11:32:24,214 - INFO - Validating for 100 episodes...
+2019-08-18 11:32:24,650 - INFO - Training of 100 finished with following result:
+2019-08-18 11:32:24,650 - INFO - Average total reward over 100 validation episodes after 26000 total training episodes: 9.3
+2019-08-18 11:32:24,651 - INFO - Average scaled reward over 100 validation episodes after 26000 total training episodes: 1.333333333333333
+2019-08-18 11:32:24,651 - INFO - Training for 1000 episodes...
+2019-08-18 11:33:35,148 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:33:35,148 - INFO - Average total reward over 1000 training episodes after 27000 total training episodes: -2.5
+2019-08-18 11:33:35,148 - INFO - Average scaled reward over 1000 training episodes after 27000 total training episodes: -1.516666666666667
+2019-08-18 11:33:35,148 - INFO - Total training steps up to now: 89008
+2019-08-18 11:33:35,148 - INFO - Saving the agent...
+2019-08-18 11:33:35,247 - INFO - Validating for 100 episodes...
+2019-08-18 11:33:35,707 - INFO - Training of 100 finished with following result:
+2019-08-18 11:33:35,707 - INFO - Average total reward over 100 validation episodes after 27000 total training episodes: 0.7
+2019-08-18 11:33:35,707 - INFO - Average scaled reward over 100 validation episodes after 27000 total training episodes: -0.8166666666666665
+2019-08-18 11:33:35,707 - INFO - Training for 1000 episodes...
+2019-08-18 11:34:46,796 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:34:46,797 - INFO - Average total reward over 1000 training episodes after 28000 total training episodes: -0.52
+2019-08-18 11:34:46,797 - INFO - Average scaled reward over 1000 training episodes after 28000 total training episodes: -1.0125000000000002
+2019-08-18 11:34:46,797 - INFO - Total training steps up to now: 92301
+2019-08-18 11:34:46,797 - INFO - Saving the agent...
+2019-08-18 11:34:46,876 - INFO - Validating for 100 episodes...
+2019-08-18 11:34:47,361 - INFO - Training of 100 finished with following result:
+2019-08-18 11:34:47,362 - INFO - Average total reward over 100 validation episodes after 28000 total training episodes: 9.9
+2019-08-18 11:34:47,362 - INFO - Average scaled reward over 100 validation episodes after 28000 total training episodes: 1.5666666666666662
+2019-08-18 11:34:47,362 - INFO - Training for 1000 episodes...
+2019-08-18 11:35:59,185 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:35:59,185 - INFO - Average total reward over 1000 training episodes after 29000 total training episodes: 1.19
+2019-08-18 11:35:59,185 - INFO - Average scaled reward over 1000 training episodes after 29000 total training episodes: -0.5000000000000002
+2019-08-18 11:35:59,185 - INFO - Total training steps up to now: 95651
+2019-08-18 11:35:59,186 - INFO - Saving the agent...
+2019-08-18 11:35:59,266 - INFO - Validating for 100 episodes...
+2019-08-18 11:35:59,758 - INFO - Training of 100 finished with following result:
+2019-08-18 11:35:59,758 - INFO - Average total reward over 100 validation episodes after 29000 total training episodes: 10.8
+2019-08-18 11:35:59,758 - INFO - Average scaled reward over 100 validation episodes after 29000 total training episodes: 1.7999999999999998
+2019-08-18 11:35:59,758 - INFO - Training for 1000 episodes...
+2019-08-18 11:37:11,389 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:37:11,390 - INFO - Average total reward over 1000 training episodes after 30000 total training episodes: -0.09
+2019-08-18 11:37:11,390 - INFO - Average scaled reward over 1000 training episodes after 30000 total training episodes: -0.8725000000000003
+2019-08-18 11:37:11,390 - INFO - Total training steps up to now: 98970
+2019-08-18 11:37:11,390 - INFO - Saving the agent...
+2019-08-18 11:37:11,476 - INFO - Validating for 100 episodes...
+2019-08-18 11:37:11,952 - INFO - Training of 100 finished with following result:
+2019-08-18 11:37:11,952 - INFO - Average total reward over 100 validation episodes after 30000 total training episodes: 13.8
+2019-08-18 11:37:11,952 - INFO - Average scaled reward over 100 validation episodes after 30000 total training episodes: 2.533333333333333
+2019-08-18 11:37:11,952 - INFO - Training for 1000 episodes...
+2019-08-18 11:38:23,660 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:38:23,660 - INFO - Average total reward over 1000 training episodes after 31000 total training episodes: -1.22
+2019-08-18 11:38:23,660 - INFO - Average scaled reward over 1000 training episodes after 31000 total training episodes: -1.1466666666666667
+2019-08-18 11:38:23,661 - INFO - Total training steps up to now: 102283
+2019-08-18 11:38:23,661 - INFO - Saving the agent...
+2019-08-18 11:38:23,760 - INFO - Validating for 100 episodes...
+2019-08-18 11:38:24,244 - INFO - Training of 100 finished with following result:
+2019-08-18 11:38:24,244 - INFO - Average total reward over 100 validation episodes after 31000 total training episodes: 14.7
+2019-08-18 11:38:24,244 - INFO - Average scaled reward over 100 validation episodes after 31000 total training episodes: 2.9333333333333336
+2019-08-18 11:38:24,244 - INFO - Training for 1000 episodes...
+2019-08-18 11:39:36,062 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:39:36,063 - INFO - Average total reward over 1000 training episodes after 32000 total training episodes: 0.96
+2019-08-18 11:39:36,063 - INFO - Average scaled reward over 1000 training episodes after 32000 total training episodes: -0.5941666666666667
+2019-08-18 11:39:36,063 - INFO - Total training steps up to now: 105601
+2019-08-18 11:39:36,063 - INFO - Saving the agent...
+2019-08-18 11:39:36,160 - INFO - Validating for 100 episodes...
+2019-08-18 11:39:36,659 - INFO - Training of 100 finished with following result:
+2019-08-18 11:39:36,659 - INFO - Average total reward over 100 validation episodes after 32000 total training episodes: 5.5
+2019-08-18 11:39:36,660 - INFO - Average scaled reward over 100 validation episodes after 32000 total training episodes: 0.5166666666666665
+2019-08-18 11:39:36,660 - INFO - Training for 1000 episodes...
+2019-08-18 11:40:47,375 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:40:47,375 - INFO - Average total reward over 1000 training episodes after 33000 total training episodes: 1.67
+2019-08-18 11:40:47,375 - INFO - Average scaled reward over 1000 training episodes after 33000 total training episodes: -0.4766666666666668
+2019-08-18 11:40:47,376 - INFO - Total training steps up to now: 108882
+2019-08-18 11:40:47,376 - INFO - Saving the agent...
+2019-08-18 11:40:47,480 - INFO - Validating for 100 episodes...
+2019-08-18 11:40:47,996 - INFO - Training of 100 finished with following result:
+2019-08-18 11:40:47,996 - INFO - Average total reward over 100 validation episodes after 33000 total training episodes: 8.2
+2019-08-18 11:40:47,997 - INFO - Average scaled reward over 100 validation episodes after 33000 total training episodes: 1.15
+2019-08-18 11:40:47,997 - INFO - Training for 1000 episodes...
+2019-08-18 11:41:59,392 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:41:59,392 - INFO - Average total reward over 1000 training episodes after 34000 total training episodes: 0.93
+2019-08-18 11:41:59,392 - INFO - Average scaled reward over 1000 training episodes after 34000 total training episodes: -0.6033333333333334
+2019-08-18 11:41:59,392 - INFO - Total training steps up to now: 112190
+2019-08-18 11:41:59,392 - INFO - Saving the agent...
+2019-08-18 11:41:59,494 - INFO - Validating for 100 episodes...
+2019-08-18 11:41:59,963 - INFO - Training of 100 finished with following result:
+2019-08-18 11:41:59,963 - INFO - Average total reward over 100 validation episodes after 34000 total training episodes: 6.2
+2019-08-18 11:41:59,963 - INFO - Average scaled reward over 100 validation episodes after 34000 total training episodes: 0.5333333333333334
+2019-08-18 11:41:59,964 - INFO - Training for 1000 episodes...
+2019-08-18 11:43:10,239 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:43:10,240 - INFO - Average total reward over 1000 training episodes after 35000 total training episodes: 1.13
+2019-08-18 11:43:10,240 - INFO - Average scaled reward over 1000 training episodes after 35000 total training episodes: -0.5808333333333335
+2019-08-18 11:43:10,240 - INFO - Total training steps up to now: 115475
+2019-08-18 11:43:10,240 - INFO - Saving the agent...
+2019-08-18 11:43:10,339 - INFO - Validating for 100 episodes...
+2019-08-18 11:43:10,819 - INFO - Training of 100 finished with following result:
+2019-08-18 11:43:10,819 - INFO - Average total reward over 100 validation episodes after 35000 total training episodes: 17.3
+2019-08-18 11:43:10,819 - INFO - Average scaled reward over 100 validation episodes after 35000 total training episodes: 3.5333333333333337
+2019-08-18 11:43:10,819 - INFO - Training for 1000 episodes...
+2019-08-18 11:44:21,346 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:44:21,347 - INFO - Average total reward over 1000 training episodes after 36000 total training episodes: 3.0
+2019-08-18 11:44:21,347 - INFO - Average scaled reward over 1000 training episodes after 36000 total training episodes: -0.12166666666666677
+2019-08-18 11:44:21,347 - INFO - Total training steps up to now: 118752
+2019-08-18 11:44:21,347 - INFO - Saving the agent...
+2019-08-18 11:44:21,423 - INFO - Validating for 100 episodes...
+2019-08-18 11:44:21,908 - INFO - Training of 100 finished with following result:
+2019-08-18 11:44:21,908 - INFO - Average total reward over 100 validation episodes after 36000 total training episodes: 6.7
+2019-08-18 11:44:21,908 - INFO - Average scaled reward over 100 validation episodes after 36000 total training episodes: 0.7166666666666666
+2019-08-18 11:44:21,908 - INFO - Training for 1000 episodes...
+2019-08-18 11:45:31,760 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:45:31,761 - INFO - Average total reward over 1000 training episodes after 37000 total training episodes: 2.05
+2019-08-18 11:45:31,761 - INFO - Average scaled reward over 1000 training episodes after 37000 total training episodes: -0.3675000000000001
+2019-08-18 11:45:31,761 - INFO - Total training steps up to now: 122000
+2019-08-18 11:45:31,761 - INFO - Saving the agent...
+2019-08-18 11:45:31,870 - INFO - Validating for 100 episodes...
+2019-08-18 11:45:32,339 - INFO - Training of 100 finished with following result:
+2019-08-18 11:45:32,340 - INFO - Average total reward over 100 validation episodes after 37000 total training episodes: 14.6
+2019-08-18 11:45:32,340 - INFO - Average scaled reward over 100 validation episodes after 37000 total training episodes: 2.6333333333333337
+2019-08-18 11:45:32,340 - INFO - Training for 1000 episodes...
+2019-08-18 11:46:41,688 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:46:41,688 - INFO - Average total reward over 1000 training episodes after 38000 total training episodes: 1.9
+2019-08-18 11:46:41,688 - INFO - Average scaled reward over 1000 training episodes after 38000 total training episodes: -0.4275
+2019-08-18 11:46:41,689 - INFO - Total training steps up to now: 125225
+2019-08-18 11:46:41,689 - INFO - Saving the agent...
+2019-08-18 11:46:41,793 - INFO - Validating for 100 episodes...
+2019-08-18 11:46:42,275 - INFO - Training of 100 finished with following result:
+2019-08-18 11:46:42,275 - INFO - Average total reward over 100 validation episodes after 38000 total training episodes: 7.3
+2019-08-18 11:46:42,275 - INFO - Average scaled reward over 100 validation episodes after 38000 total training episodes: 0.9000000000000001
+2019-08-18 11:46:42,275 - INFO - Training for 1000 episodes...
+2019-08-18 11:47:51,826 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:47:51,826 - INFO - Average total reward over 1000 training episodes after 39000 total training episodes: 1.82
+2019-08-18 11:47:51,826 - INFO - Average scaled reward over 1000 training episodes after 39000 total training episodes: -0.4475000000000001
+2019-08-18 11:47:51,826 - INFO - Total training steps up to now: 128460
+2019-08-18 11:47:51,826 - INFO - Saving the agent...
+2019-08-18 11:47:51,925 - INFO - Validating for 100 episodes...
+2019-08-18 11:47:52,437 - INFO - Training of 100 finished with following result:
+2019-08-18 11:47:52,437 - INFO - Average total reward over 100 validation episodes after 39000 total training episodes: 17.8
+2019-08-18 11:47:52,437 - INFO - Average scaled reward over 100 validation episodes after 39000 total training episodes: 3.7500000000000004
+2019-08-18 11:47:52,437 - INFO - Training for 1000 episodes...
+2019-08-18 11:49:03,138 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:49:03,138 - INFO - Average total reward over 1000 training episodes after 40000 total training episodes: 3.97
+2019-08-18 11:49:03,139 - INFO - Average scaled reward over 1000 training episodes after 40000 total training episodes: 0.16416666666666657
+2019-08-18 11:49:03,139 - INFO - Total training steps up to now: 131751
+2019-08-18 11:49:03,139 - INFO - Saving the agent...
+2019-08-18 11:49:03,237 - INFO - Validating for 100 episodes...
+2019-08-18 11:49:03,731 - INFO - Training of 100 finished with following result:
+2019-08-18 11:49:03,731 - INFO - Average total reward over 100 validation episodes after 40000 total training episodes: 9.8
+2019-08-18 11:49:03,731 - INFO - Average scaled reward over 100 validation episodes after 40000 total training episodes: 1.5166666666666664
+2019-08-18 11:49:03,732 - INFO - Training for 1000 episodes...
+2019-08-18 11:50:14,027 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:50:14,027 - INFO - Average total reward over 1000 training episodes after 41000 total training episodes: 3.27
+2019-08-18 11:50:14,027 - INFO - Average scaled reward over 1000 training episodes after 41000 total training episodes: -0.06666666666666685
+2019-08-18 11:50:14,027 - INFO - Total training steps up to now: 135006
+2019-08-18 11:50:14,027 - INFO - Saving the agent...
+2019-08-18 11:50:14,124 - INFO - Validating for 100 episodes...
+2019-08-18 11:50:14,592 - INFO - Training of 100 finished with following result:
+2019-08-18 11:50:14,592 - INFO - Average total reward over 100 validation episodes after 41000 total training episodes: 10.5
+2019-08-18 11:50:14,592 - INFO - Average scaled reward over 100 validation episodes after 41000 total training episodes: 1.7
+2019-08-18 11:50:14,592 - INFO - Training for 1000 episodes...
+2019-08-18 11:51:24,540 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:51:24,540 - INFO - Average total reward over 1000 training episodes after 42000 total training episodes: 5.1
+2019-08-18 11:51:24,540 - INFO - Average scaled reward over 1000 training episodes after 42000 total training episodes: 0.3933333333333332
+2019-08-18 11:51:24,540 - INFO - Total training steps up to now: 138239
+2019-08-18 11:51:24,540 - INFO - Saving the agent...
+2019-08-18 11:51:24,644 - INFO - Validating for 100 episodes...
+2019-08-18 11:51:25,126 - INFO - Training of 100 finished with following result:
+2019-08-18 11:51:25,126 - INFO - Average total reward over 100 validation episodes after 42000 total training episodes: 5.1
+2019-08-18 11:51:25,126 - INFO - Average scaled reward over 100 validation episodes after 42000 total training episodes: 0.44999999999999957
+2019-08-18 11:51:25,126 - INFO - Training for 1000 episodes...
+2019-08-18 11:52:33,328 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:52:33,328 - INFO - Average total reward over 1000 training episodes after 43000 total training episodes: 3.75
+2019-08-18 11:52:33,328 - INFO - Average scaled reward over 1000 training episodes after 43000 total training episodes: -0.015000000000000128
+2019-08-18 11:52:33,329 - INFO - Total training steps up to now: 141404
+2019-08-18 11:52:33,329 - INFO - Saving the agent...
+2019-08-18 11:52:33,653 - INFO - Validating for 100 episodes...
+2019-08-18 11:52:34,151 - INFO - Training of 100 finished with following result:
+2019-08-18 11:52:34,151 - INFO - Average total reward over 100 validation episodes after 43000 total training episodes: 11.0
+2019-08-18 11:52:34,151 - INFO - Average scaled reward over 100 validation episodes after 43000 total training episodes: 1.8499999999999996
+2019-08-18 11:52:34,152 - INFO - Training for 1000 episodes...
+2019-08-18 11:53:42,972 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:53:42,972 - INFO - Average total reward over 1000 training episodes after 44000 total training episodes: 5.55
+2019-08-18 11:53:42,973 - INFO - Average scaled reward over 1000 training episodes after 44000 total training episodes: 0.4766666666666666
+2019-08-18 11:53:42,973 - INFO - Total training steps up to now: 144606
+2019-08-18 11:53:42,973 - INFO - Saving the agent...
+2019-08-18 11:53:43,072 - INFO - Validating for 100 episodes...
+2019-08-18 11:53:43,574 - INFO - Training of 100 finished with following result:
+2019-08-18 11:53:43,574 - INFO - Average total reward over 100 validation episodes after 44000 total training episodes: 9.6
+2019-08-18 11:53:43,574 - INFO - Average scaled reward over 100 validation episodes after 44000 total training episodes: 1.6166666666666663
+2019-08-18 11:53:43,574 - INFO - Training for 1000 episodes...
+2019-08-18 11:54:53,528 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:54:53,528 - INFO - Average total reward over 1000 training episodes after 45000 total training episodes: 6.94
+2019-08-18 11:54:53,528 - INFO - Average scaled reward over 1000 training episodes after 45000 total training episodes: 0.8591666666666665
+2019-08-18 11:54:53,528 - INFO - Total training steps up to now: 147836
+2019-08-18 11:54:53,528 - INFO - Saving the agent...
+2019-08-18 11:54:53,844 - INFO - Validating for 100 episodes...
+2019-08-18 11:54:54,326 - INFO - Training of 100 finished with following result:
+2019-08-18 11:54:54,326 - INFO - Average total reward over 100 validation episodes after 45000 total training episodes: 11.4
+2019-08-18 11:54:54,326 - INFO - Average scaled reward over 100 validation episodes after 45000 total training episodes: 1.8833333333333329
+2019-08-18 11:54:54,327 - INFO - Training for 1000 episodes...
+2019-08-18 11:56:04,408 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:56:04,409 - INFO - Average total reward over 1000 training episodes after 46000 total training episodes: 6.23
+2019-08-18 11:56:04,409 - INFO - Average scaled reward over 1000 training episodes after 46000 total training episodes: 0.6866666666666665
+2019-08-18 11:56:04,409 - INFO - Total training steps up to now: 151077
+2019-08-18 11:56:04,409 - INFO - Saving the agent...
+2019-08-18 11:56:04,504 - INFO - Validating for 100 episodes...
+2019-08-18 11:56:04,956 - INFO - Training of 100 finished with following result:
+2019-08-18 11:56:04,956 - INFO - Average total reward over 100 validation episodes after 46000 total training episodes: 3.7
+2019-08-18 11:56:04,956 - INFO - Average scaled reward over 100 validation episodes after 46000 total training episodes: 0.016666666666666892
+2019-08-18 11:56:04,956 - INFO - Training for 1000 episodes...
+2019-08-18 11:57:13,102 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:57:13,103 - INFO - Average total reward over 1000 training episodes after 47000 total training episodes: 6.28
+2019-08-18 11:57:13,103 - INFO - Average scaled reward over 1000 training episodes after 47000 total training episodes: 0.6674999999999999
+2019-08-18 11:57:13,103 - INFO - Total training steps up to now: 154296
+2019-08-18 11:57:13,103 - INFO - Saving the agent...
+2019-08-18 11:57:13,182 - INFO - Validating for 100 episodes...
+2019-08-18 11:57:13,689 - INFO - Training of 100 finished with following result:
+2019-08-18 11:57:13,689 - INFO - Average total reward over 100 validation episodes after 47000 total training episodes: 10.8
+2019-08-18 11:57:13,689 - INFO - Average scaled reward over 100 validation episodes after 47000 total training episodes: 1.6999999999999997
+2019-08-18 11:57:13,689 - INFO - Training for 1000 episodes...
+2019-08-18 11:58:20,864 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:58:20,865 - INFO - Average total reward over 1000 training episodes after 48000 total training episodes: 4.56
+2019-08-18 11:58:20,865 - INFO - Average scaled reward over 1000 training episodes after 48000 total training episodes: 0.24999999999999986
+2019-08-18 11:58:20,865 - INFO - Total training steps up to now: 157509
+2019-08-18 11:58:20,865 - INFO - Saving the agent...
+2019-08-18 11:58:21,184 - INFO - Validating for 100 episodes...
+2019-08-18 11:58:21,733 - INFO - Training of 100 finished with following result:
+2019-08-18 11:58:21,734 - INFO - Average total reward over 100 validation episodes after 48000 total training episodes: 15.0
+2019-08-18 11:58:21,734 - INFO - Average scaled reward over 100 validation episodes after 48000 total training episodes: 2.9833333333333343
+2019-08-18 11:58:21,734 - INFO - Training for 1000 episodes...
+2019-08-18 11:59:28,379 - INFO - Training of 1000 finished with following result:
+2019-08-18 11:59:28,379 - INFO - Average total reward over 1000 training episodes after 49000 total training episodes: 6.45
+2019-08-18 11:59:28,379 - INFO - Average scaled reward over 1000 training episodes after 49000 total training episodes: 0.6824999999999999
+2019-08-18 11:59:28,379 - INFO - Total training steps up to now: 160684
+2019-08-18 11:59:28,379 - INFO - Saving the agent...
+2019-08-18 11:59:28,479 - INFO - Validating for 100 episodes...
+2019-08-18 11:59:28,955 - INFO - Training of 100 finished with following result:
+2019-08-18 11:59:28,955 - INFO - Average total reward over 100 validation episodes after 49000 total training episodes: 4.5
+2019-08-18 11:59:28,955 - INFO - Average scaled reward over 100 validation episodes after 49000 total training episodes: 0.1666666666666668
+2019-08-18 11:59:28,956 - INFO - Training for 1000 episodes...
+2019-08-18 12:00:35,750 - INFO - Training of 1000 finished with following result:
+2019-08-18 12:00:35,750 - INFO - Average total reward over 1000 training episodes after 50000 total training episodes: 5.43
+2019-08-18 12:00:35,750 - INFO - Average scaled reward over 1000 training episodes after 50000 total training episodes: 0.45583333333333326
+2019-08-18 12:00:35,750 - INFO - Total training steps up to now: 163876
+2019-08-18 12:00:35,750 - INFO - Saving the agent...
+2019-08-18 12:00:35,853 - INFO - Validating for 100 episodes...
+2019-08-18 12:00:36,326 - INFO - Training of 100 finished with following result:
+2019-08-18 12:00:36,327 - INFO - Average total reward over 100 validation episodes after 50000 total training episodes: 4.4
+2019-08-18 12:00:36,327 - INFO - Average scaled reward over 100 validation episodes after 50000 total training episodes: -1.687538997430238e-16
+2019-08-18 12:00:36,327 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:36,806 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:36,806 - INFO - Average total reward over 100 test episodes: 12.2
+2019-08-18 12:00:36,806 - INFO - Average scaled reward over 100 test episodes: 2.083333333333333
+2019-08-18 12:00:36,806 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:37,381 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:37,381 - INFO - Average total reward over 100 test episodes: 12.3
+2019-08-18 12:00:37,381 - INFO - Average scaled reward over 100 test episodes: 2.2
+2019-08-18 12:00:37,382 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:37,953 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:37,953 - INFO - Average total reward over 100 test episodes: 12.6
+2019-08-18 12:00:37,953 - INFO - Average scaled reward over 100 test episodes: 2.233333333333333
+2019-08-18 12:00:37,953 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:38,548 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:38,549 - INFO - Average total reward over 100 test episodes: 7.7
+2019-08-18 12:00:38,549 - INFO - Average scaled reward over 100 test episodes: 1.0666666666666667
+2019-08-18 12:00:38,549 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:39,162 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:39,163 - INFO - Average total reward over 100 test episodes: 10.6
+2019-08-18 12:00:39,163 - INFO - Average scaled reward over 100 test episodes: 1.8333333333333335
+2019-08-18 12:00:39,163 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:39,735 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:39,735 - INFO - Average total reward over 100 test episodes: 7.3
+2019-08-18 12:00:39,735 - INFO - Average scaled reward over 100 test episodes: 0.8499999999999999
+2019-08-18 12:00:39,735 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:40,283 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:40,283 - INFO - Average total reward over 100 test episodes: 10.8
+2019-08-18 12:00:40,284 - INFO - Average scaled reward over 100 test episodes: 1.916666666666667
+2019-08-18 12:00:40,284 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:40,801 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:40,801 - INFO - Average total reward over 100 test episodes: 8.8
+2019-08-18 12:00:40,801 - INFO - Average scaled reward over 100 test episodes: 1.35
+2019-08-18 12:00:40,801 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:41,353 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:41,353 - INFO - Average total reward over 100 test episodes: 8.9
+2019-08-18 12:00:41,353 - INFO - Average scaled reward over 100 test episodes: 1.2833333333333334
+2019-08-18 12:00:41,353 - INFO - Testing for 100 episodes...
+2019-08-18 12:00:41,895 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:00:41,895 - INFO - Average total reward over 100 test episodes: 4.3
+2019-08-18 12:00:41,896 - INFO - Average scaled reward over 100 test episodes: -2.042810365310288e-16
+2019-08-18 12:00:41,896 - INFO - Average test total reward is 9.55 with 50000 training episodes
+2019-08-18 12:00:41,896 - INFO - Average test scaled reward is 1.481666666666667 with 50000 training episodes
+2019-08-18 12:00:41,896 - INFO - Best test total reward over 100 and 10 cycles is: 12.6
+2019-08-18 12:00:41,896 - INFO - Best test scaled reward over 100 and 10 cycles is: 2.233333333333333
+2019-08-18 12:00:41,896 - INFO - The experiment is not successful
