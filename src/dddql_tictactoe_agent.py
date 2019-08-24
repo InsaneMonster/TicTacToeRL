@@ -204,20 +204,3 @@ class DDDQLTicTacToeAgent(Agent):
     def warmup_episodes(self) -> int:
         # Return the amount of warmup episodes required by the model
         return self._model.warmup_episodes
-
-    def act_adversarial(self,
-                        logger: logging.Logger,
-                        session,
-                        interface: TicTacToePassThroughInterface,
-                        agent_observation_current):
-        # Get all actions q-values predicted by the model
-        all_actions = self._model.get_all_actions(session, agent_observation_current)
-        # Mask the actions with the possible actions in the environment
-        mask: [] = interface.get_possible_actions(logger, session)
-        for action_index in range(all_actions.size):
-            if action_index not in mask:
-                all_actions[0, action_index] = -math.inf
-        # Compute the best action according to the masked q-values and act according to it
-        action = numpy.argmax(all_actions)
-        # Return the chosen action
-        return action
