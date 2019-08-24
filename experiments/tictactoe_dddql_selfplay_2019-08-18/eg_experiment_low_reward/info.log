@@ -1,0 +1,74 @@
+2019-08-18 12:30:38,888 - INFO - Setup of experiment eg_experiment_low_reward...
+2019-08-18 12:30:38,888 - INFO - Environment setup...
+2019-08-18 12:30:38,888 - INFO - Environment setup is successful!
+2019-08-18 12:30:38,888 - INFO - Agent setup...
+2019-08-18 12:30:38,888 - INFO - Setup of agent dddqn_egreedy_agent with scope eg_experiment_low_reward...
+2019-08-18 12:30:38,889 - INFO - A Tensorboard summary for the agent will be updated during training of its internal model
+2019-08-18 12:30:38,890 - INFO - Tensorboard summary path: ./experiments/tictactoe_dddql_selfplay_2019-08-18/eg_experiment_low_reward/summary
+2019-08-18 12:30:38,890 - INFO - Generating exploration policy...
+2019-08-18 12:30:38,890 - INFO - Generating model model with scope eg_experiment_low_reward/dddqn_egreedy_agent...
+2019-08-18 12:30:38,890 - INFO - Model generation successful
+2019-08-18 12:30:39,292 - INFO - Agent setup is successful!
+2019-08-18 12:30:39,307 - INFO - Agent internal model will be saved after each train volley
+2019-08-18 12:30:39,307 - INFO - Agent internal model metagraph save path: ./experiments/tictactoe_dddql_selfplay_2019-08-18/eg_experiment_low_reward/metagraph
+2019-08-18 12:30:39,307 - INFO - Tensorflow configuration is successful!
+2019-08-18 12:30:39,307 - INFO - Experiment setup is successful. Now can conduct the experiment
+2019-08-18 12:30:39,307 - INFO - Conducting experiment eg_experiment_low_reward...
+2019-08-18 12:30:40,826 - INFO - Model initialized to default state
+2019-08-18 12:30:40,855 - INFO - Warming-up for 100000 episodes...
+2019-08-18 12:40:36,652 - INFO - Training for 1000 episodes...
+2019-08-18 12:42:03,175 - INFO - Training of 1000 finished with following result:
+2019-08-18 12:42:03,175 - INFO - Average total reward over 1000 training episodes after 1000 total training episodes: 0.21420000000000003
+2019-08-18 12:42:03,176 - INFO - Average scaled reward over 1000 training episodes after 1000 total training episodes: 0.053133333333333324
+2019-08-18 12:42:03,176 - INFO - Total training steps up to now: 3542
+2019-08-18 12:42:03,176 - INFO - Saving the agent...
+2019-08-18 12:42:03,322 - INFO - Validating for 100 episodes...
+2019-08-18 12:42:04,482 - INFO - Training of 100 finished with following result:
+2019-08-18 12:42:04,483 - INFO - Average total reward over 100 validation episodes after 1000 total training episodes: 0.5489999999999999
+2019-08-18 12:42:04,483 - INFO - Average scaled reward over 100 validation episodes after 1000 total training episodes: 0.10441666666666663
+2019-08-18 12:42:04,483 - INFO - Validation of the agent is successful
+2019-08-18 12:42:04,483 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:05,643 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:05,643 - INFO - Average total reward over 100 test episodes: 0.527
+2019-08-18 12:42:05,643 - INFO - Average scaled reward over 100 test episodes: 0.09924999999999998
+2019-08-18 12:42:05,643 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:06,695 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:06,696 - INFO - Average total reward over 100 test episodes: 0.3289999999999999
+2019-08-18 12:42:06,696 - INFO - Average scaled reward over 100 test episodes: 0.0565
+2019-08-18 12:42:06,696 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:07,819 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:07,820 - INFO - Average total reward over 100 test episodes: 0.47200000000000003
+2019-08-18 12:42:07,820 - INFO - Average scaled reward over 100 test episodes: 0.08691666666666663
+2019-08-18 12:42:07,820 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:08,939 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:08,940 - INFO - Average total reward over 100 test episodes: 0.41700000000000004
+2019-08-18 12:42:08,940 - INFO - Average scaled reward over 100 test episodes: 0.07608333333333334
+2019-08-18 12:42:08,940 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:10,068 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:10,068 - INFO - Average total reward over 100 test episodes: 0.406
+2019-08-18 12:42:10,068 - INFO - Average scaled reward over 100 test episodes: 0.07358333333333335
+2019-08-18 12:42:10,069 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:11,180 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:11,180 - INFO - Average total reward over 100 test episodes: 0.4059999999999999
+2019-08-18 12:42:11,180 - INFO - Average scaled reward over 100 test episodes: 0.07350000000000001
+2019-08-18 12:42:11,180 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:12,304 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:12,305 - INFO - Average total reward over 100 test episodes: 0.472
+2019-08-18 12:42:12,305 - INFO - Average scaled reward over 100 test episodes: 0.08824999999999998
+2019-08-18 12:42:12,305 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:13,454 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:13,455 - INFO - Average total reward over 100 test episodes: 0.461
+2019-08-18 12:42:13,455 - INFO - Average scaled reward over 100 test episodes: 0.0860833333333333
+2019-08-18 12:42:13,455 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:14,603 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:14,604 - INFO - Average total reward over 100 test episodes: 0.483
+2019-08-18 12:42:14,604 - INFO - Average scaled reward over 100 test episodes: 0.09116666666666663
+2019-08-18 12:42:14,604 - INFO - Testing for 100 episodes...
+2019-08-18 12:42:15,741 - INFO - Testing of 100 finished with following result:
+2019-08-18 12:42:15,741 - INFO - Average total reward over 100 test episodes: 0.494
+2019-08-18 12:42:15,741 - INFO - Average scaled reward over 100 test episodes: 0.09183333333333332
+2019-08-18 12:42:15,741 - INFO - Average test total reward is 0.44670000000000004 with 1000 training episodes
+2019-08-18 12:42:15,741 - INFO - Average test scaled reward is 0.08231666666666665 with 1000 training episodes
+2019-08-18 12:42:15,742 - INFO - Best test total reward over 100 and 10 cycles is: 0.527
+2019-08-18 12:42:15,742 - INFO - Best test scaled reward over 100 and 10 cycles is: 0.09924999999999998
+2019-08-18 12:42:15,742 - INFO - The experiment is successful

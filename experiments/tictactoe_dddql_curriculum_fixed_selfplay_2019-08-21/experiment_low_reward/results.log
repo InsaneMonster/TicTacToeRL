@@ -1,0 +1,22 @@
+experiment_low_reward results:
+
+experiment iteration 		 average total reward 			 average scaled reward 			 max total reward 			 max scaled reward 			 trained_episodes 			 success
+-1				0.578				0.643				0.148				0.164			5000			YES
+
+
+Maximum average total reward over all 1000 test episodes: 0.578 at experiment number 0
+Maximum max total score over 100 test episodes: 0.643 at experiment number 0
+Maximum average scaled reward over all 1000 test episodes: 0.148 at experiment number 0
+Maximum max scaled score over 100 test episodes: 0.164 at experiment number 0
+Minimum training episodes for validation: 5000 at experiment number 0
+Average of average total reward over all experiments 0.578
+Average of max total reward over all experiments: 0.643
+Average of average scaled reward over all experiments 0.148
+Average of max scaled reward over all experiments: 0.164
+Average of training episodes over all experiments: 5000.000
+Success percentage over all experiments: 100.00
+Standard deviation of average total reward over all experiments: 0.000, which is a 0.00% of the average
+Standard deviation of max total reward over all experiments 0.000, which is a 0.00% of the average
+Standard deviation of average scaled reward over all experiments: 0.000, which is a 0.00% of the average
+Standard deviation of max scaled reward over all experiments 0.000, which is a 0.00% of the average
+Standard deviation of training episodes over all experiments: 0.000, which is a 0.00% of the average

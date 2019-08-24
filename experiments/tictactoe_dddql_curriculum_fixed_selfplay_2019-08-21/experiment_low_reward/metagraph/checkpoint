@@ -1,0 +1,2 @@
+model_checkpoint_path: "experiment_low_reward"
+all_model_checkpoint_paths: "experiment_low_reward"
