@@ -6,6 +6,7 @@ import random
 import time
 import enum
 import copy
+import math
 
 # Import usienarl
 
@@ -196,12 +197,12 @@ class TicTacToeEnvironment(Environment):
         if self._intermediate_state is not None:
             self._print_board(self._intermediate_state)
             # Print separator
-            print("____________________")
+            print("_________")
             time.sleep(1.0)
         # Print the current state
         self._print_board(self._state)
         # Print separator
-        print("____________________")
+        print("_________")
         # Print end of episode footer and results
         if self._episode_done:
             print("MATCH END")
@@ -210,13 +211,13 @@ class TicTacToeEnvironment(Environment):
                 print("Winner player is " + ("X" if self.winner == Player.x else "O"))
             else:
                 print("There is no winner: it's a draw!")
-            print("____________________")
+            print("_________")
         time.sleep(1.0)
 
     def get_random_action(self,
                           logger: logging.Logger,
                           session):
-        # Choose a random action in the possible actions
+        # Choose a random action in the currently possible actions
         return random.choice(self.get_possible_actions(logger, session))
 
     @property
@@ -235,18 +236,18 @@ class TicTacToeEnvironment(Environment):
     def action_space_shape(self):
         return 9 * 2,
 
-    def get_possible_actions(self,
-                             logger: logging.Logger,
-                             session):
+    def get_action_mask(self,
+                        logger: logging.Logger,
+                        session) -> numpy.ndarray:
         """
-        Return all the possible action at the current state in the environment.
+        Return all the possible action at the current state in the environment wrapped in a numpy array mask.
 
         :param logger: the logger used to print the environment information, warnings and errors
         :param session: the session of tensorflow currently running, if any
-        :return: the list of possible actions
+        :return: an array of -infinity (for unavailable actions) and 1.0 (for available actions)
         """
-        # Get all the possible actions according to position
-        possible_actions: [] = []
+        # Get all the possible action mask according to current board state
+        mask: numpy.ndarray = -math.inf * numpy.ones(self.action_space_shape, dtype=float)
         for action in range(*self.action_space_shape):
             position, player = divmod(action, 2)
             # Set the player to its defined value
@@ -255,8 +256,24 @@ class TicTacToeEnvironment(Environment):
             else:
                 player = Player.x
             if self._state[position] == Player.none and player == self.current_player:
-                possible_actions.append(action)
-        return possible_actions
+                mask[action] = 1.0
+        return mask
+
+    def get_possible_actions(self,
+                             logger: logging.Logger,
+                             session) -> []:
+        """
+        Return a list of the indices of all the possible actions at the current state of the environment.
+
+        :param logger: the logger used to print the environment information, warnings and errors
+        :param session: the session of tensorflow currently running, if any
+        :return: a list of indices containing the possible actions
+        """
+        # Get the mask
+        mask: numpy.ndarray = self.get_action_mask(logger, session)
+        # Return the list of possible actions from the mask indices
+        result = numpy.where(mask > 0.0)[0].tolist()
+        return result
 
     @staticmethod
     def _check_if_final(state: numpy.ndarray):
@@ -315,7 +332,7 @@ class TicTacToeEnvironment(Environment):
         third_row: [] = []
         for i in range(state.size):
             # Convert the state to its graphical representation
-            graphical_element: str = " "
+            graphical_element: str = "-"
             if state[i] == Player.x:
                 graphical_element = "X"
             elif state[i] == Player.o:
@@ -327,9 +344,9 @@ class TicTacToeEnvironment(Environment):
             else:
                 third_row.append(graphical_element)
         # Print each row
-        print(first_row)
-        print(second_row)
-        print(third_row)
+        print(' '.join(first_row))
+        print(' '.join(second_row))
+        print(' '.join(third_row))
 
     @staticmethod
     def _encode_state_int(state: numpy.ndarray):

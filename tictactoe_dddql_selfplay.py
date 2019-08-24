@@ -89,7 +89,7 @@ if __name__ == "__main__":
     nn_config.add_hidden_layer(LayerType.dense, [1024, tensorflow.nn.relu, True, tensorflow.contrib.layers.xavier_initializer()])
     # Define model
     inner_model: DuelingDeepQLearning = _define_dddqn_model(nn_config)
-    # Define exploration_policies
+    # Define exploration policies
     epsilon_greedy_exploration_policy: EpsilonGreedyExplorationPolicy = _define_epsilon_greedy_exploration_policy()
     boltzmann_exploration_policy: BoltzmannExplorationPolicy = _define_boltzmann_exploration_policy()
     # Define agents

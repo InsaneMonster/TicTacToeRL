@@ -73,7 +73,7 @@ if __name__ == "__main__":
     # Define model
     inner_model_first: DuelingDeepQLearning = _define_dddqn_model(nn_config, 0.000001)
     inner_model_second: DuelingDeepQLearning = _define_dddqn_model(nn_config, 0.000001)
-    # Define exploration_policies
+    # Define exploration policies
     exploration_policy_first: BoltzmannExplorationPolicy = _define_boltzmann_exploration_policy(1.0, 0.1)
     exploration_policy_second: BoltzmannExplorationPolicy = _define_boltzmann_exploration_policy(0.50, 0.05)
     # Define agents
