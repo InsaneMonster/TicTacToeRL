@@ -272,8 +272,7 @@ class TicTacToeEnvironment(Environment):
         # Get the mask
         mask: numpy.ndarray = self.get_action_mask(logger, session)
         # Return the list of possible actions from the mask indices
-        result = numpy.where(mask > 0.0)[0].tolist()
-        return result
+        return numpy.where(mask > 0.0)[0].tolist()
 
     @staticmethod
     def _check_if_final(state: numpy.ndarray):
