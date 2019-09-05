@@ -1,6 +1,8 @@
-# Import usienarl
+# Import packages
 
 import logging
+
+# Import usienarl
 
 from usienarl import Experiment, Agent, Interface
 
