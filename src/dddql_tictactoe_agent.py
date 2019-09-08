@@ -1,8 +1,17 @@
+#
+# Copyright (C) 2019 Luca Pasqualini
+# University of Siena - Artificial Intelligence Laboratory - SAILab
+#
+#
+# TicTacToeRL project is licensed under a BSD 3-Clause.
+#
+# You should have received a copy of the license along with this
+# work. If not, see <https://opensource.org/licenses/BSD-3-Clause>.
+
 # Import packages
 
 import logging
 import numpy
-import math
 import random
 
 # Import usienarl package
@@ -84,7 +93,7 @@ class DDDQLTicTacToeAgent(Agent):
                   interface: TicTacToePassThroughInterface,
                   agent_observation_current):
         # Get the best action predicted by the model and all relative action q-values
-        best_action, all_actions = self._model.get_best_action_and_all_actions(session, agent_observation_current, interface.get_action_mask(logger, session))
+        best_action, all_actions = self._model.get_best_action_and_all_action_values(session, agent_observation_current, interface.get_action_mask(logger, session))
         # Act according to the exploration policy
         action = self._exploration_policy.act(logger, session, interface, all_actions, best_action)
         # Return the chosen action
